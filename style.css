@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(18, 0, 41);
+    color: white;
+    font-family: Palatino, URW Palladio L, serif;
+    margin: 0;
+}
+
+.body-inside{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-inside > h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.conventer-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 300px;
+    background-color: rgba(18, 0, 41, 0.322);
+    border: white 2px solid;
+    padding: 2rem;
+}
+
+.conventer-form > p{
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.conventer-form > input{
+    margin: 1rem 0;
+    height: 60px;
+    font-size: xx-large;
+}
+
+.conventer-form > button{
+    height: 65px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,141,16,1) 0%, rgba(254,255,0,1) 100%);
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: xx-large;
+}
+
+.warning{
+    background-color: rgb(252, 145, 163);
+    border: rgb(131, 0, 0) solid 2px;
+    color: rgb(131, 0, 0);
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
